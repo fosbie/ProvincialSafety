@@ -3,18 +3,38 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>Provincial Safety</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
 <body>
-
     <div class="container">
-        <div>
-            <img src="~/Images/Logo.png" />
-        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <img src="~/Images/Logo.png" style="height:150px" />
+            </div>
+                <div class="col-md-9 pull-right">
+                    <ul class="nav nav-pills pull-right contact-details">
+                        <li><span class="glyphicon glyphicon-earphone"></span> 0121 544 5208</li>
+                        <li><span class="glyphicon glyphicon-print"></span> 0121 552 9075</li>
+                        <li><span class="glyphicon glyphicon-phone"></span> 07973 954 333</li>
+                        <li><span class="glyphicon glyphicon-envelope"></span> sales@provincialsafety.co.uk</li>
+                        <li><span class="glyphicon glyphicon-envelope"></span> steve@provincialsafety.co.uk</li>                        
+                    </ul>
+                    <br />
+                    <br />
+                    <div class="pull-right" style="text-align:right">
+                        <b>Portway Road</b><br />
+                        <b>Oldbury</b><br />
+                        <b>West Midlands</b><br />
+                        <b>B69 2BP</b>
+                    </div>
+                </div>
+
+            </div>
     </div>
+    <br/>
     <div class="navbar navbar-inverse">
 
         <div class="container">
@@ -26,24 +46,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Bespoke Clothing", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>                
+                    <li>@Html.ActionLink("Products", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Industries", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Find Us", "Index", "Home")</li>
+                    <li>@Html.ActionLink("News", "Index", "Home")</li>
+                </ul>
             </div>
         </div>
     </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        <footer style="text-align: center">
+            <p>Goggles | Spectacles | Welding Shields | Face Masks | Respirators | Ear Defenders | Donkey Jackets | Wellingtons | Safety Helmets | Industrial Safety Footwear | PVC/Leather/Cotton Industrial Gloves | Industrial and High Visibility Clothing | Boiler Suits | Wet Weather Suits</p>
         </footer>
     </div>
 
