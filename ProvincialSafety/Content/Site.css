@@ -27,3 +27,28 @@ textarea {
     margin-right: 10px;
 }
 
+@font-face {
+    font-family: OmnesMedium;
+    src: url(../fonts/OmnesMed.ttf);
+}
+
+* {
+    font-family: OmnesMedium;
+}
+
+h2, h3 {
+    color: #f7ca55 
+}
+
+.photoText {
+    padding: 10px; 
+    border: solid 10px #525e6d;
+    margin-bottom: 20px;
+    background-color: #525e6d;
+    color: white;
+}
+
+    .photoText .photo {
+        padding: 0px;
+        
+    }
