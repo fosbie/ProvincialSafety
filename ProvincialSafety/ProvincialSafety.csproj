@@ -274,6 +274,7 @@
     <Content Include="Images\Products\Yellow + Royal Hi Vis Boilersuit.jpg" />
     <Content Include="Images\Products\Yellow Hide.jpg" />
     <Content Include="Images\Products\Zephyr logo.png" />
+    <Content Include="Images\PSBrands.png" />
     <Content Include="Images\Safety1.jpg" />
     <Content Include="Images\Safety2.jpg" />
     <Content Include="Images\Safety3.jpg" />
@@ -285,6 +286,7 @@
     <Content Include="Images\Logo.docx" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\OmnesMed.ttf" />
+    <Content Include="Images\ImageSource\PSBrands.pdn" />
     <None Include="Properties\PublishProfiles\Camserver.pubxml" />
     <None Include="Properties\PublishProfiles\Provincial Safety.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
