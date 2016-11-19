@@ -22,5 +22,17 @@ namespace ProvincialSafety.Controllers
         {
             return View();
         }
+
+        public ActionResult FallArrest()
+        {
+            return View();
+        }
+
+        public ActionResult Footwear()
+        {
+            return View();
+        }
+
+
     }
 }

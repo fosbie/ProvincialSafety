@@ -37,11 +37,11 @@ textarea {
 }
 
 h2, h3 {
-    color: #f7ca55 
+    color: #f7ca55;
 }
 
 .photoText {
-    padding: 10px; 
+    padding: 10px;
     border: solid 10px #525e6d;
     margin-bottom: 20px;
     background-color: #525e6d;
@@ -49,13 +49,19 @@ h2, h3 {
 }
 
     .photoText .photo {
-        padding: 0px;        
+        padding: 0px;
     }
+
     .photoText .text {
         padding-bottom: 20px;
     }
 
 img.logo {
     margin-bottom: 2px;
-    text-align:center;
+    text-align: center;
+}
+
+.mainlogo {
+    background: url(../Images/Logo.png) no-repeat;
+    height: 150px;
 }
