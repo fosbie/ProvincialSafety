@@ -292,6 +292,8 @@
     <Content Include="Images\ImageSource\BrandLogos.pdn" />
     <Content Include="Images\ImageSource\Eyewear.pdn" />
     <Content Include="Images\ImageSource\Respirators.pdn" />
+    <Content Include="Images\ImageSource\CorporateClothing.pdn" />
+    <Content Include="Images\ImageSource\Gloves.pdn" />
     <None Include="Properties\PublishProfiles\Camserver.pubxml" />
     <None Include="Properties\PublishProfiles\Provincial Safety.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
