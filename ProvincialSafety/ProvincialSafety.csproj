@@ -215,11 +215,16 @@
     <Content Include="Images\Logos\ZephyrLogo.png" />
     <Content Include="Images\Products\Boilersuits.jpg" />
     <Content Include="Images\Products\Coloured Waistcoats.jpg" />
+    <Content Include="Images\Products\Coloured Waistcoats2.jpg" />
+    <Content Include="Images\Products\CorporateClothing.png" />
     <Content Include="Images\Products\Cutting section.jpg" />
     <Content Include="Images\Products\Disp Resp.jpg" />
     <Content Include="Images\Products\Disp Respirators.PNG" />
     <Content Include="Images\Products\embroidery-machines.jpeg" />
     <Content Include="Images\Products\Eyewear.png" />
+    <Content Include="Images\Products\FallArrest.png" />
+    <Content Include="Images\Products\Footwear.png" />
+    <Content Include="Images\Products\Gloves.png" />
     <Content Include="Images\Products\GPUN Glove.jpg" />
     <Content Include="Images\Products\harness + lanyard.JPG" />
     <Content Include="Images\Products\Hearing Prot.jpg" />
@@ -294,6 +299,8 @@
     <Content Include="Images\ImageSource\Respirators.pdn" />
     <Content Include="Images\ImageSource\CorporateClothing.pdn" />
     <Content Include="Images\ImageSource\Gloves.pdn" />
+    <Content Include="Images\ImageSource\FallArrest.pdn" />
+    <Content Include="Images\ImageSource\Footwear.pdn" />
     <None Include="Properties\PublishProfiles\Camserver.pubxml" />
     <None Include="Properties\PublishProfiles\Provincial Safety.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
