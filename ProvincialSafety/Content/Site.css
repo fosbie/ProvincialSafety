@@ -61,7 +61,7 @@ img.logo {
     text-align: center;
 }
 
-.mainlogo {
-    background: url(../Images/Logo.png) no-repeat;
+.mainlogo a {
+    background: url(/Images/Logo.png) no-repeat;
     height: 150px;
 }
