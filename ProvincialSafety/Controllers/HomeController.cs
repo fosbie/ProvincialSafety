@@ -26,5 +26,10 @@ namespace ProvincialSafety.Controllers
 
             return View();
         }
+
+        public ActionResult Industries()
+        {
+            return View();
+        }
     }
 }

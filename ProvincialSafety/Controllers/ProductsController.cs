@@ -18,6 +18,11 @@ namespace ProvincialSafety.Controllers
             return View();
         }
 
+        public ActionResult BespokeClothing()
+        {
+            return View();
+        }
+
         public ActionResult HandProtection()
         {
             return View();

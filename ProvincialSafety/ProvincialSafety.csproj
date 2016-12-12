@@ -220,10 +220,17 @@
     <Content Include="Images\Products\Cutting section.jpg" />
     <Content Include="Images\Products\Disp Resp.jpg" />
     <Content Include="Images\Products\Disp Respirators.PNG" />
+    <Content Include="Images\Products\Doosan welder.png" />
+    <Content Include="Images\Products\Doosan welder2.jpg" />
     <Content Include="Images\Products\embroidery-machines.jpeg" />
     <Content Include="Images\Products\Eyewear.png" />
     <Content Include="Images\Products\FallArrest.png" />
     <Content Include="Images\Products\Footwear.png" />
+    <Content Include="Images\Products\FR Boilersuits.jpg" />
+    <Content Include="Images\Products\FR Hood.jpg" />
+    <Content Include="Images\Products\FR Hood2.jpg" />
+    <Content Include="Images\Products\FR Jackets.jpg" />
+    <Content Include="Images\Products\Fr Trousres.jpg" />
     <Content Include="Images\Products\Gloves.png" />
     <Content Include="Images\Products\GPUN Glove.jpg" />
     <Content Include="Images\Products\harness + lanyard.JPG" />
@@ -235,8 +242,11 @@
     <Content Include="Images\Products\Hi Vis wcoats.jpg" />
     <Content Include="Images\Products\IndustrialGloves.jpg" />
     <Content Include="Images\Products\latex-work-glove.jpg" />
+    <Content Include="Images\Products\Lyndon man.jpg" />
+    <Content Include="Images\Products\Lyndon men.jpg" />
     <Content Include="Images\Products\man on fire.png" />
     <Content Include="Images\Products\mens-sweatshirts.jpg" />
+    <Content Include="Images\Products\Navy-Orange FR Boilersuits.jpg" />
     <Content Include="Images\Products\Navy-Yellow Boilersuit.jpg" />
     <Content Include="Images\Products\Nomex Boilersuit.jpg" />
     <Content Include="Images\Products\Orange Hi Vis.jpg" />
@@ -278,9 +288,11 @@
     <Content Include="Images\Products\UvexFaceScreen.PNG" />
     <Content Include="Images\Products\UvexWeldingGoggle.PNG" />
     <Content Include="Images\Products\Waterproof clothing.jpg" />
+    <Content Include="Images\Products\Winter liner.JPG" />
     <Content Include="Images\Products\Yellow + Green Boilersuit.jpg" />
     <Content Include="Images\Products\Yellow + Royal Hi Vis Boilersuit.jpg" />
     <Content Include="Images\Products\Yellow Hide.jpg" />
+    <Content Include="Images\Products\Yellow+Navy FR Bsuit.jpg" />
     <Content Include="Images\PSBrands.png" />
     <Content Include="Images\Safety1.jpg" />
     <Content Include="Images\Safety2.jpg" />
@@ -351,10 +363,11 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Products\HeadProtection.cshtml" />
     <Content Include="Views\Products\Clothing.cshtml" />
-    <Content Include="Views\Products\BespokeClothing.cshtml" />
     <Content Include="Views\Products\HandProtection.cshtml" />
     <Content Include="Views\Products\Footwear.cshtml" />
     <Content Include="Views\Products\FallArrest.cshtml" />
+    <Content Include="Views\Products\BespokeClothing.cshtml" />
+    <Content Include="Views\Home\Industries.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
