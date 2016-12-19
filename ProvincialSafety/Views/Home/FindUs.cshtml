@@ -1,0 +1,35 @@
+﻿<h2>How to Find Us</h2>
+<p>We are located near to junction 2 of the M5</p>
+<div id="map"></div>
+<script>
+      function initMap() {
+          var provincialSafety = { lat: 52.499336, lng: -2.025391 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: provincialSafety
+        });
+        var marker = new google.maps.Marker({
+            position: provincialSafety,
+          map: map
+        });
+        map.setOptions({ styles: styles['hide'] });
+      }
+
+      var styles = {
+          default: null,
+          hide: [
+            {
+                featureType: 'poi.business',
+                stylers: [{ visibility: 'off' }]
+            },
+            {
+                featureType: 'transit',
+                elementType: 'labels.icon',
+                stylers: [{ visibility: 'off' }]
+            }
+          ]
+      };
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhoQgrsAycdlue8ao8moD7bYHBlYuWNkk&callback=initMap">
+</script>

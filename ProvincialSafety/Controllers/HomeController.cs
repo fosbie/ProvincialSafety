@@ -31,5 +31,10 @@ namespace ProvincialSafety.Controllers
         {
             return View();
         }
+
+        public ActionResult FindUs()
+        {
+            return View();
+        }
     }
 }

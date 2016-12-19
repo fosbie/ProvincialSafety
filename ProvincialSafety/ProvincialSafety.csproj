@@ -192,27 +192,39 @@
     <Content Include="Images\Characters.JPG" />
     <Content Include="Images\Logo.png" />
     <Content Include="Images\Logos\3MLogo.png" />
+    <Content Include="Images\Logos\AlstomLogo.png" />
+    <Content Include="Images\Logos\CarringtonLogo.png" />
     <Content Include="Images\Logos\CatLogo.png" />
     <Content Include="Images\Logos\CenturionLogo.png" />
     <Content Include="Images\Logos\DeltaLogo.png" />
+    <Content Include="Images\Logos\DoosanLogo.png" />
     <Content Include="Images\Logos\DrMartensLogo.png" />
+    <Content Include="Images\Logos\EDFLogo.png" />
+    <Content Include="Images\Logos\EONLogo.png" />
+    <Content Include="Images\Logos\GELogo.png" />
     <Content Include="Images\Logos\HoneywellLogo.png" />
     <Content Include="Images\Logos\HowardLeightLogo.png" />
     <Content Include="Images\Logos\IkarLogo.png" />
     <Content Include="Images\Logos\JSPLogo.png" />
     <Content Include="Images\Logos\KlopmanLogo.png" />
+    <Content Include="Images\Logos\LyndonLogo.png" />
     <Content Include="Images\Logos\MSALogo.png" />
     <Content Include="Images\Logos\PandPLogo.png" />
     <Content Include="Images\Logos\PolycoLogo.png" />
+    <Content Include="Images\Logos\ProbanLogo.png" />
     <Content Include="Images\Logos\RegattaLogo.png" />
     <Content Include="Images\Logos\RespairLogo.png" />
+    <Content Include="Images\Logos\RollsRoyceLogo.png" />
+    <Content Include="Images\Logos\SiemensLogo.png" />
     <Content Include="Images\Logos\SpansetLogo.png" />
     <Content Include="Images\Logos\TencateLogo.png" />
     <Content Include="Images\Logos\TornadoLogo.png" />
     <Content Include="Images\Logos\UnivetLogo.png" />
+    <Content Include="Images\Logos\UPowerLogo.png" />
     <Content Include="Images\Logos\UvexLogo.png" />
     <Content Include="Images\Logos\V12Logo.png" />
     <Content Include="Images\Logos\ZephyrLogo.png" />
+    <Content Include="Images\Products\BespokeGarments.png" />
     <Content Include="Images\Products\Boilersuits.jpg" />
     <Content Include="Images\Products\Coloured Waistcoats.jpg" />
     <Content Include="Images\Products\Coloured Waistcoats2.jpg" />
@@ -225,6 +237,7 @@
     <Content Include="Images\Products\embroidery-machines.jpeg" />
     <Content Include="Images\Products\Eyewear.png" />
     <Content Include="Images\Products\FallArrest.png" />
+    <Content Include="Images\Products\FlameRetardantGarments.png" />
     <Content Include="Images\Products\Footwear.png" />
     <Content Include="Images\Products\FR Boilersuits.jpg" />
     <Content Include="Images\Products\FR Hood.jpg" />
@@ -243,8 +256,11 @@
     <Content Include="Images\Products\IndustrialGloves.jpg" />
     <Content Include="Images\Products\latex-work-glove.jpg" />
     <Content Include="Images\Products\Lyndon man.jpg" />
+    <Content Include="Images\Products\Lyndon manb.jpg" />
     <Content Include="Images\Products\Lyndon men.jpg" />
+    <Content Include="Images\Products\Lyndon menb.jpg" />
     <Content Include="Images\Products\man on fire.png" />
+    <Content Include="Images\Products\man on fireb.png" />
     <Content Include="Images\Products\mens-sweatshirts.jpg" />
     <Content Include="Images\Products\Navy-Orange FR Boilersuits.jpg" />
     <Content Include="Images\Products\Navy-Yellow Boilersuit.jpg" />
@@ -279,6 +295,7 @@
     <Content Include="Images\Products\Safety helmet.PNG" />
     <Content Include="Images\Products\SemiDisposable3mRespirator.jpg" />
     <Content Include="Images\Products\slider03.jpg" />
+    <Content Include="Images\Products\slider03b.jpg" />
     <Content Include="Images\Products\Softshell jacket.jpg" />
     <Content Include="Images\Products\Spanset harness.jpg" />
     <Content Include="Images\Products\T-shirts.jpg" />
@@ -313,6 +330,8 @@
     <Content Include="Images\ImageSource\Gloves.pdn" />
     <Content Include="Images\ImageSource\FallArrest.pdn" />
     <Content Include="Images\ImageSource\Footwear.pdn" />
+    <Content Include="Images\ImageSource\BespokeGarments.pdn" />
+    <Content Include="Images\ImageSource\Flame Retardant Garments.pdn" />
     <None Include="Properties\PublishProfiles\Camserver.pubxml" />
     <None Include="Properties\PublishProfiles\Provincial Safety.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -368,6 +387,7 @@
     <Content Include="Views\Products\FallArrest.cshtml" />
     <Content Include="Views\Products\BespokeClothing.cshtml" />
     <Content Include="Views\Home\Industries.cshtml" />
+    <Content Include="Views\Home\FindUs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
