@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Xml;
+using System.ServiceModel.Syndication;
+
 
 namespace ProvincialSafety.Controllers
 {
@@ -10,6 +13,22 @@ namespace ProvincialSafety.Controllers
     {
         public ActionResult Index()
         {
+            string url = "http://painlessmoneysaving.blogspot.co.uk/feeds/posts/default";
+
+            XmlReaderSettings settings = new XmlReaderSettings();
+            settings.DtdProcessing = DtdProcessing.Parse;
+
+            XmlReader reader = XmlReader.Create(url,settings);
+            SyndicationFeed feed = SyndicationFeed.Load(reader);
+            reader.Close();
+            ViewBag.NewsTitle = feed.Items.First().Title.Text;
+
+            //foreach (SyndicationItem item in feed.Items)
+            //{
+            //    String subject = item.Title.Text;
+            //    //String summary = item.Summary.Text;
+            //}
+
             return View();
         }
 
