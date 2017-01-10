@@ -22,6 +22,7 @@ namespace ProvincialSafety.Controllers
             SyndicationFeed feed = SyndicationFeed.Load(reader);
             reader.Close();
             ViewBag.NewsTitle = feed.Items.First().Title.Text;
+            ViewBag.NewsContent = ((System.ServiceModel.Syndication.TextSyndicationContent)feed.Items.First().Content).Text;
 
             //foreach (SyndicationItem item in feed.Items)
             //{
