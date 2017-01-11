@@ -226,6 +226,7 @@
     <Content Include="Images\Logos\V12Logo.png" />
     <Content Include="Images\Logos\ZephyrLogo.png" />
     <Content Include="Images\Products\BespokeGarments.png" />
+    <Content Include="Images\Products\Block.jpg" />
     <Content Include="Images\Products\Boilersuits.jpg" />
     <Content Include="Images\Products\Coloured Waistcoats.jpg" />
     <Content Include="Images\Products\Coloured Waistcoats2.jpg" />
@@ -238,6 +239,7 @@
     <Content Include="Images\Products\embroidery-machines.jpeg" />
     <Content Include="Images\Products\Eyewear.png" />
     <Content Include="Images\Products\FallArrest.png" />
+    <Content Include="Images\Products\FallArrest2.png" />
     <Content Include="Images\Products\FlameRetardantGarments.png" />
     <Content Include="Images\Products\Footwear.png" />
     <Content Include="Images\Products\FR Boilersuits.jpg" />
@@ -254,7 +256,9 @@
     <Content Include="Images\Products\Hi Vis Jackets.jpg" />
     <Content Include="Images\Products\Hi Vis Traffic.jpg" />
     <Content Include="Images\Products\Hi Vis wcoats.jpg" />
+    <Content Include="Images\Products\Horizontal safety line.jpg" />
     <Content Include="Images\Products\IndustrialGloves.jpg" />
+    <Content Include="Images\Products\Lanyard.jpg" />
     <Content Include="Images\Products\latex-work-glove.jpg" />
     <Content Include="Images\Products\Lyndon man.jpg" />
     <Content Include="Images\Products\Lyndon manb.jpg" />
@@ -298,6 +302,7 @@
     <Content Include="Images\Products\slider03.jpg" />
     <Content Include="Images\Products\slider03b.jpg" />
     <Content Include="Images\Products\Softshell jacket.jpg" />
+    <Content Include="Images\Products\SP140.PNG" />
     <Content Include="Images\Products\Spanset harness.jpg" />
     <Content Include="Images\Products\T-shirts.jpg" />
     <Content Include="Images\Products\Univet Overspec.jpg" />
@@ -334,6 +339,7 @@
     <Content Include="Images\ImageSource\Footwear.pdn" />
     <Content Include="Images\ImageSource\BespokeGarments.pdn" />
     <Content Include="Images\ImageSource\Flame Retardant Garments.pdn" />
+    <Content Include="Images\ImageSource\FallArrest2.pdn" />
     <None Include="Properties\PublishProfiles\Camserver.pubxml" />
     <None Include="Properties\PublishProfiles\Provincial Safety.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -390,6 +396,7 @@
     <Content Include="Views\Products\BespokeClothing.cshtml" />
     <Content Include="Views\Home\Industries.cshtml" />
     <Content Include="Views\Home\FindUs.cshtml" />
+    <Content Include="Views\Home\News.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

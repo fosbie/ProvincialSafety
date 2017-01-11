@@ -5,32 +5,32 @@ using System.Web;
 using System.Web.Mvc;
 using System.Xml;
 using System.ServiceModel.Syndication;
-
+using System.Web.Configuration;
 
 namespace ProvincialSafety.Controllers
 {
     public class HomeController : Controller
     {
+        //public List<SyndicationItem> RSSPosts { get; set; }
         public ActionResult Index()
         {
-            string url = "http://painlessmoneysaving.blogspot.co.uk/feeds/posts/default";
+            SyndicationFeed feed = GetNewsFeed();
+
+            return View(feed.Items);
+        }
+
+        private static SyndicationFeed GetNewsFeed()
+        {
+            string url = WebConfigurationManager.AppSettings["RSSFeed"].ToString();
 
             XmlReaderSettings settings = new XmlReaderSettings();
             settings.DtdProcessing = DtdProcessing.Parse;
 
-            XmlReader reader = XmlReader.Create(url,settings);
+            XmlReader reader = XmlReader.Create(url, settings);
             SyndicationFeed feed = SyndicationFeed.Load(reader);
             reader.Close();
-            ViewBag.NewsTitle = feed.Items.First().Title.Text;
-            ViewBag.NewsContent = ((System.ServiceModel.Syndication.TextSyndicationContent)feed.Items.First().Content).Text;
 
-            //foreach (SyndicationItem item in feed.Items)
-            //{
-            //    String subject = item.Title.Text;
-            //    //String summary = item.Summary.Text;
-            //}
-
-            return View();
+            return feed;
         }
 
         public ActionResult About()
@@ -55,6 +55,13 @@ namespace ProvincialSafety.Controllers
         public ActionResult FindUs()
         {
             return View();
+        }
+
+        public ActionResult News()
+        {
+            SyndicationFeed feed = GetNewsFeed();
+
+            return View(feed.Items);
         }
     }
 }
