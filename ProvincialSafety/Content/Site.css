@@ -56,6 +56,17 @@ h2, h3 {
         padding-bottom: 20px;
     }
 
+.news-feed {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.news-feed > div {
+    border: solid 10px #525e6d;
+    padding: 0px 10px 10px 10px;
+}
+.news-feed h3 {
+    margin-top: 5px;
+}
 img.logo {
     margin-bottom: 2px;
     text-align: center;
