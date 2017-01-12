@@ -1,14 +1,16 @@
 ﻿@model IEnumerable<System.ServiceModel.Syndication.SyndicationItem>
 
 <h2>News</h2>
-@foreach (var feed in Model)
+<div class="row">
+    @foreach (var feed in Model)
             {
-    <div class="col-md-6 news-feed">
-        <div>
-            <h3>
-                @Html.DisplayFor(modelItem => feed.Title.Text)
-            </h3>
-            @Html.Raw(((System.ServiceModel.Syndication.TextSyndicationContent)@feed.Content).Text)
+        <div class="col-md-6 news-feed">
+            <div>
+                <h3>
+                    @Html.DisplayFor(modelItem => feed.Title.Text)
+                </h3>
+                @Html.Raw(((System.ServiceModel.Syndication.TextSyndicationContent)@feed.Content).Text)
+            </div>
         </div>
-    </div>
-}
+    }
+</div>
