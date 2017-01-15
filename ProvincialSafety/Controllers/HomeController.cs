@@ -17,12 +17,13 @@ namespace ProvincialSafety.Controllers
             SyndicationFeed feed = GetNewsFeed();
 
             return View(feed.Items);
+            //return View();
         }
 
         private static SyndicationFeed GetNewsFeed()
         {
             string url = WebConfigurationManager.AppSettings["RSSFeed"].ToString();
-
+            //string url = "http://provincialsafety.blogspot.co.uk/feeds/posts/default";
             XmlReaderSettings settings = new XmlReaderSettings();
             settings.DtdProcessing = DtdProcessing.Parse;
 
