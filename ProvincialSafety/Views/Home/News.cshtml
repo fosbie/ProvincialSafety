@@ -1,6 +1,8 @@
 ﻿@model IEnumerable<System.ServiceModel.Syndication.SyndicationItem>
-
-<h2>News</h2>
+@{
+    ViewBag.Title = "News";
+}
+<h1>News</h1>
 <div class="row">
     @foreach (var feed in Model)
             {
