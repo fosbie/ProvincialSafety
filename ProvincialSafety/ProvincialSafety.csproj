@@ -182,6 +182,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BingSiteAuth.xml" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -344,7 +345,6 @@
     <Content Include="Images\ImageSource\FallArrest2.pdn" />
     <None Include="Properties\PublishProfiles\ASPNetHosting.pubxml" />
     <None Include="Properties\PublishProfiles\Camserver.pubxml" />
-    <None Include="Properties\PublishProfiles\Provincial Safety.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
